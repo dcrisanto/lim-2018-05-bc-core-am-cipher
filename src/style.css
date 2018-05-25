@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+h1{
+    color: rgb(19, 60, 197);
+    
+}
+h4, label{
+    color: rgb(238, 238, 24);
+}
+input[type=text] {
+    width: 600px;
+    padding: 60px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(68, 170, 68);
+}
+button{
+    background-color: rgb(72, 228, 220);
+    padding: 16px 32px;
+    
+        width: 100px; 
+        height: 100px; 
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+}
+
