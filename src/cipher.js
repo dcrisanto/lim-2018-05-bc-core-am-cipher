@@ -9,7 +9,7 @@ window.cipher = {
          let x=(posicionAscii-65+offset)%26+65;
          cipheredMessage = cipheredMessage+String.fromCharCode(x);
        }
-    //Codificar texto minúsculas
+    //Codificar texto minúsculasxxxx
        else if (posicionAscii>=97 && posicionAscii <= 122) {
          let x=(posicionAscii-97+offset)%26+97;
          cipheredMessage = cipheredMessage+String.fromCharCode(x);
