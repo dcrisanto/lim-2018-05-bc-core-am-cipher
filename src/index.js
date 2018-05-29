@@ -1,39 +1,38 @@
-var createOptions = function(size) {
-    // Creando selector
-    var selector = document.createElement('select');
-    selector.setAttribute('id', 'selector');
-    // Llenando las opciones del selector
-    for (var i = 0; i < size; i++) {
-        var option = document.createElement('option');
-        var value = i+1;
-        option.setAttribute('value', value);
-        parseInt(option.innerText = value);
-        selector.appendChild(option);
-    }
-    //Poniendo el selector dentro del div
-    document.getElementById('selector-container').appendChild(selector);
-}
+
+// Declarando las variables
+const string = document.getElementById("mensaje");
+const selector=document.getElementById('selector');
+const messageSalida = document.getElementById("salida");
 
 // DOMContentLoaded: Cuando el HTML termina de cargar
-document.addEventListener('DOMContentLoaded', function(event) {
+document.addEventListener('DOMContentLoaded', function() {
     //se llenan las opciones
-    createOptions(10);
+    createOptions(100);
 })
-    //Se agrega el evento para el botón cifrar
+// Función para crear las opciones en el selector
+const createOptions = function(size) {
+    // Llenando las opciones del selector
+    for (let i = 0; i < size; i++) {
+        // Creando las opciones
+        let option = document.createElement('option');
+        let value = i+1;
+        option.setAttribute('value', value);
+        option.innerText = value;
+        selector.appendChild(option);
+    }
+}
+
+//Se agrega el evento para el botón cifrar
     document.getElementById('botonCifrar').addEventListener('click', function(event){
         event.preventDefault();//para que al hacer clic a página no se recargue
-        var posicionSelect=parseInt(document.getElementById('selector').value);
-        var string=document.getElementById("mensaje").value.toUpperCase();
-        var mensajeEncriptado = window.cipher.Encode(string, posicionSelect);
-        document.getElementById("salida").value=mensajeEncriptado;
+        const mensajeEncriptado = window.cipher.encode(string.value, parseInt(selector.value));
+        messageSalida.value=mensajeEncriptado;
     });
-    //Se agrega el evento para el botón descifrar
+//Se agrega el evento para el botón descifrar
     document.getElementById('botonDescifrar').addEventListener('click', function(event){
         event.preventDefault();//para que al hacer clic a página no se recargue
-        var posicionSelect=parseInt(document.getElementById('selector').value);
-        var string=document.getElementById("mensaje").value.toUpperCase();
-        var mensajeDesencriptado = window.cipher.Decode(string, posicionSelect);
-        document.getElementById("salida").value=mensajeDesencriptado;
+        const mensajeDesencriptado = window.cipher.decode(string.value, parseInt(selector.value));
+        messageSalida.value=mensajeDesencriptado;
     });
 
 
