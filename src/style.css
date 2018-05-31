@@ -1,12 +1,13 @@
 body{
     text-align: center;
+    background-color: #4d63d3;
 }
 h1{
     color: rgb(19, 60, 197);
     
 }
 h4, label{
-    color: rgb(238, 238, 24);
+    color: #2980b9;
 }
 input[type=text] {
     width: 600px;
