@@ -45,7 +45,7 @@ usuario.
       del abecedario de acuerdo a la posición que se ingrese.
 
     - Función Descifrar
-      La función Desciifrar se encargaría de sustituir las letras del mensaje con letras anteriores al abacedario de acuerdo a la posición que se ingrese.
+      La función Desciifrar se encargaría de sustituir las letras del mensaje con letras anteriores al abacedario de acuerdo a la    posición que se ingrese.
 
     - Testing
       En el testing nos encargaríamos de comprobar que la estructura que se creó cuente con mínimo del 70% de statements, functions y lines, y un mínimo del 50% de branches, lo que me ayudó a identificar que
