@@ -31,19 +31,19 @@ body{
       }
       h1{
         padding: 5px 50px 2px 50px;
-    margin: 50px 350px 3px 350px;
-    text-align: center;
-    color: aliceblue;
-    background-color: rgb(150, 151, 161);
-    border-radius: 5px;
-    font-size: 45px;
+        margin: 50px 350px 3px 350px;
+        text-align: center;
+        color: aliceblue;
+        background-color: rgb(150, 151, 161);
+        border-radius: 5px;
+        font-size: 45px;
     }
       textarea {
         width: 80%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
     } 
     h4{
         padding: 4px 50px 10px 50px;
@@ -53,7 +53,7 @@ body{
         color: aliceblue;
         border-radius: 5px;
         background-color: rgb(143, 14, 14);
-}
+    }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
     .p1{
@@ -78,29 +78,29 @@ body{
       }
       h1{
         padding: 5px 20px 2px 20px;
-    margin: 50px 200px 3px 200px;
-    text-align: center;
-    color: aliceblue;
-    background-color: rgb(150, 151, 161);
-    border-radius: 5px;
-    font-size: 45px;
+        margin: 50px 200px 3px 200px;
+        text-align: center;
+        color: aliceblue;
+        background-color: rgb(150, 151, 161);
+        border-radius: 5px;
+        font-size: 45px;
     }
       textarea {
         width: 80%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
     } 
     h4{
         padding: 4px 50px 10px 50px;
-    margin: 20px 200px 15px 200px;
-    text-align: center;
-    font-size: 20px;
-    color: aliceblue;
-    border-radius: 5px;
-    background-color: rgb(143, 14, 14);
-}
+        margin: 20px 200px 15px 200px;
+        text-align: center;
+        font-size: 20px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(143, 14, 14);
+    }
     .buttonAccion{
         background-color: rgb(207, 211, 219);
         width: 50px; 
@@ -115,12 +115,12 @@ body{
 @media only screen and (max-width: 480px) {
     .p1{
         padding: 5px 2px 2px 10px;
-    margin: 100px 5px 3px 10px;
-    text-align: center;
-    color: aliceblue;
-    background-color: rgb(150, 151, 161);
-    border-radius: 50px;
-    font-size: 25px;
+        margin: 100px 5px 3px 10px;
+        text-align: center;
+        color: aliceblue;
+        background-color: rgb(150, 151, 161);
+        border-radius: 50px;
+        font-size: 25px;
     } 
     .CD{
         padding: 20px 10px 20px 10px;
@@ -132,24 +132,24 @@ body{
         background-color: rgb(143, 14, 14);
         border-radius: 10px;
         cursor: pointer;
-      }
+    }
     h1{
         padding: 5px 20px 2px 20px;
-    margin: 30px 30px 3px 30px;
-    text-align: center;
-    color: aliceblue;
-    background-color: rgb(150, 151, 161);
-    border-radius: 5px;
-    font-size: 30px;
+        margin: 30px 30px 3px 30px;
+        text-align: center;
+        color: aliceblue;
+        background-color: rgb(150, 151, 161);
+        border-radius: 5px;
+        font-size: 30px;
     }
     h4{
         padding: 4px 50px 3px 50px;
-    margin: 20px 30px 5px 30px;
-    text-align: center;
-    font-size: 20px;
-    color: aliceblue;
-    border-radius: 5px;
-    background-color: rgb(143, 14, 14);
+        margin: 20px 30px 5px 30px;
+        text-align: center;
+        font-size: 20px;
+        color: aliceblue;
+        border-radius: 5px;
+        background-color: rgb(143, 14, 14);
     }
     .buttonAccion{
         background-color: rgb(207, 211, 219);
@@ -163,10 +163,10 @@ body{
     }
     textarea {
         width: 80%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
     } 
     .regresar{
         margin: 10px 50px 4px 50px; 
