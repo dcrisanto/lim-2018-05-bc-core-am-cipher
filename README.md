@@ -34,7 +34,7 @@ usuario.
     completar el proyecto, acordando las siguientes tareas:
     - Estructura HTML: 
     
-    ![estructura](https://scontent-scl1-1.xx.fbcdn.net/v/t1.15752-9/34339955_1797371383675926_8215864952225792000_n.png?_nc_cat=0&_nc_eui2=AeECyvLzGpKHSUue0R8XjLGyJ6OiRGyxBijrJ50uiQSFCTB9mYiOa_cXSBpacAv_NEEtYX0q4_I1YvOyhoB0bUBuHWfOYdlrdhjZ0SNOA2UQwg&oh=51b02a52909c31ce8c4f9fa0aa1c02f6&oe=5B87BD9B)
+    ![estructura](https://scontent-scl1-1.xx.fbcdn.net/v/t1.15752-9/34369264_1797375697008828_7015866607440232448_n.png?_nc_cat=0&_nc_eui2=AeFJA90XUaM0hWI5edK0kvIg7Uxv-h5F-kpUwFz36sOYKi-8HYqTScYNGIpXe0d1owihuyqlE9-7kl-TPIwM5P1oZrjXlPZUi8G3exwoCDsAyg&oh=36144ddec87327c49fbe555c6a2f67dc&oe=5BBA7061)
       
       Se decidió en el squad que para que la estructura del HTML se encuentre terminada debería tener cómo 
       mínimo lo siguiente: Entrada para ingresar el mensaje, para la posición, 2 botones para Cifrar y 
