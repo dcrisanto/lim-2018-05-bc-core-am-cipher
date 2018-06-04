@@ -33,7 +33,7 @@ usuario.
   * Primero concordamos en el squad cuáles eran las tareas que debíamos realizar para 
     completar el proyecto, acordando las siguientes tareas:
     - Estructura HTML: 
-    (http://2.bp.blogspot.com/_aQGkfw6J-yo/TONJVJYa1iI/AAAAAAAACuw/KsRY7TTkO_c/s1600/encriptacioncesar.jpg)
+    ![prueba](http://2.bp.blogspot.com/_aQGkfw6J-yo/TONJVJYa1iI/AAAAAAAACuw/KsRY7TTkO_c/s1600/encriptacioncesar.jpg)
       
       Se decidió en el squad que para que la estructura del HTML se encuentre terminada debería tener cómo 
       mínimo lo siguiente: Entrada para ingresar el mensaje, para la posición, 2 botones para Cifrar y 
@@ -59,7 +59,7 @@ usuario.
 
 ## Reto Terminado
    - Para acceder al link del proyecto:
-   (https://dcrisanto.github.io/lim-2018-05-bc-core-am-cipher/src)
+   ![LinkReto](https://dcrisanto.github.io/lim-2018-05-bc-core-am-cipher/src)
 
   
 
