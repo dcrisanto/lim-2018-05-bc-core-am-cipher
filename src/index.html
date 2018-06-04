@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div class="CifDesi">
+    <div class="p1">
+      <p>¿Quiéres compartir un secreto?</p>
+    </div>
+    <br>
+    <button class="CD" id="iniciarCifrado">Cifra tu secreto</button>
+    <br>
+    <button class="CD" id="iniciarDescifrado">Descifra tu secreto</button>
+  </div>
+  <div class="contenedor hidden">
     <h1>Cifrado Cesar</h1>
-    <form method="post">
-      <h4>Ingresa Mensaje a Cifrar:</h4>
-          <input id="mensaje" type="text"><br>
-      <label>Selecciona la posicion a cifrar:</label> 
-      <select id="selector"></select>
-      <button id="botonCifrar">Cifrar</button><br>
-      <button id="botonDescifrar">Descifrar</button><br>
-      <h4>Resultado:</h4> 
-          <input id="salida" type="text">
+    <form id="encoding-form" method="post">
+      <input type="hidden" id="action-form" name="action-form" value="" />
+      <h4 id="secreto"></h4>
+      <textarea id="mensaje"></textarea>
+      <h4>Selecciona tu clave:</h4>
+      <select class="selector"></select>
     </form>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    <br>
+    <button class="buttonAccion" id="botonAccion"></button>
+    <h4 id="outSecreto"></h4>
+    <p class="out" id="salida"></p>
+    <button class="regresar" id="botonRegresar">Regresar</button>
+  </div>
+  <div id="root"></div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
