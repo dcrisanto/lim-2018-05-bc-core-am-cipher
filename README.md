@@ -34,7 +34,7 @@ usuario.
     completar el proyecto, acordando las siguientes tareas:
     - Estructura HTML: 
     
-    ![estructura](http://2.bp.blogspot.com/_aQGkfw6J-yo/TONJVJYa1iI/AAAAAAAACuw/KsRY7TTkO_c/s1600/encriptacioncesar.jpg)
+    ![estructura](https://scontent-scl1-1.xx.fbcdn.net/v/t1.15752-9/34339955_1797371383675926_8215864952225792000_n.png?_nc_cat=0&_nc_eui2=AeECyvLzGpKHSUue0R8XjLGyJ6OiRGyxBijrJ50uiQSFCTB9mYiOa_cXSBpacAv_NEEtYX0q4_I1YvOyhoB0bUBuHWfOYdlrdhjZ0SNOA2UQwg&oh=51b02a52909c31ce8c4f9fa0aa1c02f6&oe=5B87BD9B)
       
       Se decidió en el squad que para que la estructura del HTML se encuentre terminada debería tener cómo 
       mínimo lo siguiente: Entrada para ingresar el mensaje, para la posición, 2 botones para Cifrar y 
